@@ -67,16 +67,6 @@ Resources:
 Outputs: 
   WebsiteURL:
     Value: !Sub 
-      - http://${PIA}
+      - http://${PIA}S
       - PIA: !GetAtt WebServerHost.PublicDnsName
     Description: Roman Numerals Converter Application URL
-  
-
-
-
-
-
-
-
-
-
